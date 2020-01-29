@@ -1,0 +1,26 @@
+<h2 class="country-box__title">{{name}}</h2>
+<div class="country-box">
+    <ul class="country-box__description-block">
+        <li>
+            <p class="country-box__description-block--category">
+                Capital: <span class="country-box__description-block--city">{{capital}}</span>
+            </p>
+        </li>
+        <li>
+            <p class="country-box__description-block--category">
+                Population: <span class="country-box__description-block--city">{{population}}</span>
+            </p>
+        </li>
+        <li>
+            <p class="country-box__description-block--category">
+                Languages:
+                <ul class="languages-list">
+                    {{#each languages}}
+                    <li class="languages-list__item">{{this.name}}</li>
+                    {{/each}}
+                </ul>
+            </p>
+        </li>
+    </ul>
+    <img src="{{flag}}" width="340" alt="country-flag" />
+</div>
