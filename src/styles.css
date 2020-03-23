@@ -26,7 +26,7 @@ body {
   line-height: 20px;
   padding: 0px 0px 0px 4px;
   margin: 0 auto;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 .country-list {
@@ -47,18 +47,20 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  width: 70%;
+  width: 75%;
 }
 
 .country-box__title {
   text-align: center;
   font-size: 30px;
+  margin-bottom: 60px;
 }
 
 .country-box__description-block {
   margin: 0;
   list-style: none;
   font-size: 20px;
+  padding-left: 110px;
 }
 
 .country-box__description-block--category {
